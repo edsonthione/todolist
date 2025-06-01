@@ -1,0 +1,33 @@
+# Node modules (dépendances)
+node_modules/
+
+# Fichiers d'environnement
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache et fichiers temporaires
+dist/
+tmp/
+temp/
+.cache/
+coverage/
+
+# Systèmes d'exploitation
+.DS_Store
+Thumbs.db
+
+# IDEs / éditeurs de code
+.vscode/
+.idea/
+*.swp
+
+# Dossier de build
+build/
+
+# Docker (si tu l’utilises)
+docker-compose.override.yml
