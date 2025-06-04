@@ -1,0 +1,37 @@
+#version: '3.8' 
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: infrastructure/web/Dockerfile
+    container_name: todolist-web
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    env_file:
+      - .env
+
+  db:
+    image: mysql:8.0
+    container_name: todolist-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: todolist
+    volumes:
+      - db_data:/var/lib/mysql
+
+  reverse-proxy:
+    image: nginx
+    container_name: todolist-proxy
+    volumes:
+      - ./infrastructure/reverse-proxy/nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"
+    depends_on:
+      - web
+
+volumes:
+  db_data:
