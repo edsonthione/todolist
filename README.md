@@ -105,9 +105,9 @@ L'application est accessible sur :
 
 ## 👥 Développeurs
 
-* Mohamed (responsable développement)
+* Mouhamed edouard Thione (responsable développement)
+* Ali Idrissa Yacouba (responsable infrastructure)
 * Mouhamad Mbengue (responsable infrastructure)
-* Yacouba (responsable infrastructure)
 * Adja Aminata Diagne (responsable infrastructure)
 
 
