@@ -27,9 +27,6 @@ Tous ces services sont orchestrés via docker-compose.
 
 
 
- # Architecture du projet
-
-
 # Architecture du projet
 ```shell
 .
