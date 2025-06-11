@@ -38,16 +38,9 @@ Tous ces services sont orchestrés via docker-compose.
     ├── web/
     │   └── Dockerfile          → Image Node.js
     └── reverse-proxy/
-       └── nginx.conf          → Config du serveur Nginx```
+       └── nginx.conf          → Config du serveur Nginx
 
-
-
-Parfait, ton README de la branche `infrastructure` est déjà bien structuré. Voici comment **compléter intelligemment ton README existant** sans le surcharger, en ajoutant les **éléments Git**, **commandes utiles**, et un petit rappel du rôle de cette branche dans le projet global.
-
-Voici ce que tu peux ajouter **à la fin de ton README actuel** :
-
----
-
+```
 ## 🚀 Utilisation de l’infrastructure
 
 ### 1️⃣ Cloner le projet et se placer sur la bonne branche
