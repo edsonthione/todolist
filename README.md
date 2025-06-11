@@ -1,4 +1,4 @@
-#⚓ Infrastructure du projet : Application Web ToDo List Dockerisée
+# Infrastructure du projet : Application Web ToDo List Dockerisée
 🔧 Objectif de l’infrastructure
 L’infrastructure a été conçue pour :
 - Conteneuriser l’application web et la base de données.
@@ -39,3 +39,6 @@ Tous ces services sont orchestrés via docker-compose.
     │   └── Dockerfile          → Image Node.js
     └── reverse-proxy/
        └── nginx.conf          → Config du serveur Nginx```
+
+
+
