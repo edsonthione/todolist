@@ -31,6 +31,7 @@ Tous ces services sont orchestrés via docker-compose.
 
 
 # Architecture du projet
+```shell
 .
 ├── .env                         → Variables d’environnement (DB)
 ├── docker-compose.yml          → Orchestration des services Docker
@@ -40,4 +41,4 @@ Tous ces services sont orchestrés via docker-compose.
     ├── web/
     │   └── Dockerfile          → Image Node.js
     └── reverse-proxy/
-       └── nginx.conf          → Config du serveur Nginx
+       └── nginx.conf          → Config du serveur Nginx```
