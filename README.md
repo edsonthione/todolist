@@ -29,7 +29,7 @@ Tous ces services sont orchestrés via docker-compose.
 
  # Architecture du projet
 
-.
+´´´.
 
 ├── .env                         → Variables d’environnement (DB)
 
@@ -47,6 +47,7 @@ Tous ces services sont orchestrés via docker-compose.
 
     └── reverse-proxy/
 
-       └── nginx.conf          → Config du serveur Nginx
+       └── nginx.conf          → Config du serveur Nginx'´´´
+       
 
  
