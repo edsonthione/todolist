@@ -29,25 +29,15 @@ Tous ces services sont orchestrés via docker-compose.
 
  # Architecture du projet
 
-´´´.
 
-├── .env                         → Variables d’environnement (DB)
-
-├── docker-compose.yml          → Orchestration des services Docker
-
-├── app.js                      → Code principal de l'application Express
-
-├── models/, views/, public/    → Modèle de données, vues EJS, style CSS
-
+# Architecture du projet
+.
+├── .env                         → Variables d’environnement (DB)
+├── docker-compose.yml          → Orchestration des services Docker
+├── app.js                      → Code principal de l'application Express
+├── models/, views/, public/    → Modèle de données, vues EJS, style CSS
 └── infrastructure/
-
-    ├── web/
-
-    │   └── Dockerfile          → Image Node.js
-
-    └── reverse-proxy/
-
-       └── nginx.conf          → Config du serveur Nginx'´´´
-       
-
- 
+    ├── web/
+    │   └── Dockerfile          → Image Node.js
+    └── reverse-proxy/
+       └── nginx.conf          → Config du serveur Nginx
