@@ -42,3 +42,49 @@ Tous ces services sont orchestrés via docker-compose.
 
 
 
+Parfait, ton README de la branche `infrastructure` est déjà bien structuré. Voici comment **compléter intelligemment ton README existant** sans le surcharger, en ajoutant les **éléments Git**, **commandes utiles**, et un petit rappel du rôle de cette branche dans le projet global.
+
+Voici ce que tu peux ajouter **à la fin de ton README actuel** :
+
+---
+
+## 🚀 Utilisation de l’infrastructure
+
+### 1️⃣ Cloner le projet et se placer sur la bonne branche
+
+```bash
+git clone https://github.com/edsonthione/todolist.git
+cd todolist
+git checkout infrastructure
+```
+
+### 2️⃣ Lancer les conteneurs avec Docker Compose
+
+```bash
+docker-compose up -d
+```
+
+L'application sera accessible via :
+📍 [http://localhost:8080](http://localhost:8080)
+
+### 3️⃣ Commandes utiles
+
+| Action                | Commande                       |
+| --------------------- | ------------------------------ |
+| Démarrer les services | `docker-compose up -d`         |
+| Arrêter les services  | `docker-compose down`          |
+| Voir les logs         | `docker-compose logs -f`       |
+| Rebuild               | `docker-compose up --build -d` |
+
+---
+
+## 📂 Rappel de l'organisation Git
+
+Ce dépôt suit une structure collaborative basée sur Git :
+
+* **`main`** : branche de production (code final validé)
+* **`infrastructure`** : gestion des conteneurs, Dockerfiles, configuration du reverse proxy, etc.
+* **`develop`** : développement actif de l'application
+
+---
+
