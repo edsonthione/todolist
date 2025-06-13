@@ -58,7 +58,8 @@ docker-compose up -d
 ```
 
 L'application sera accessible via :
-📍 [http://localhost:8080](http://localhost:8080)
+📍 [http://localhost:3000](http://localhost:3000)
+
 
 ### 3️⃣ Commandes utiles
 
