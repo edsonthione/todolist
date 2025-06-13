@@ -81,4 +81,5 @@ Ce dépôt suit une structure collaborative basée sur Git :
 * **`develop`** : développement actif de l'application
 
 ---
+🎥 Vidéo de présentation : [Voir ici](https://drive.google.com/file/d/1o9NmJXGRyYE9zjiDV5W1T0uG4cafP_xm/view?usp=sharing)
 
